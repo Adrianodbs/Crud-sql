@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { toast } from 'react-toastify'
 
-function Form() {
+function Form({ getUsers, onEdit, setOnEdit }) {
   return (
     <FormContainer>
       <InputArea>
